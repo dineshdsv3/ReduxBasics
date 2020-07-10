@@ -7,6 +7,7 @@ import HooksCakeContainer from './Components/HooksCakeContainer';
 import HookIceCreamContainer from './Components/HookIceCreamContainer';
 import ItemContainer from './Components/ItemContainer';
 import PostContainer from './Components/PostContainer';
+import PostContainerRefactor from './Components/PostContainerRefactor'
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<CakeContainer />
 					<HooksCakeContainer /> */}
           <PostContainer />
+		  {/* <PostContainerRefactor /> */}
 				</h1>
 			</div>
 		</Provider>

@@ -11,6 +11,8 @@ function PostContainer() {
 
 	const dispatch = useDispatch();
 
+	// We can also give request using the thunk in action tab also - go to post action to check that
+	// And reminder is import thunk middleware in store.js
 	useEffect(() => {
 		dispatch(fetchPosts());
 		axios
