@@ -13,7 +13,7 @@ function App() {
 				<h1>
 					<HookIceCreamContainer />
 					<CakeContainer />
-					<HooksCakeContainer />
+					{/* <HooksCakeContainer /> */}
 				</h1>
 			</div>
 		</Provider>
