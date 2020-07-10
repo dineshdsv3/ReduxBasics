@@ -13,6 +13,7 @@ function App() {
 			<div className="App">
 				<h1>
           <ItemContainer cake/>
+          <ItemContainer />
 					<HookIceCreamContainer />
 					<CakeContainer />
 					<HooksCakeContainer />
